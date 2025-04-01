@@ -5,15 +5,43 @@
 
 A modern and user-friendly book library website that dynamically fetches and displays book details using the FreeAPI.app. Browse through an extensive collection, search for your favorite books, and switch between different viewing styles effortlessly.  
 
+## **📸 Screenshots**  
+![image](https://github.com/user-attachments/assets/ef1e4a88-d8d6-45c0-a70e-50c0f502b732)
+
 ## **✨ Features**  
 
-- Fetch & Display Books – Automatically retrieves book data from the API and displays it dynamically.  
-- List & Grid View – Users can toggle between a list and grid layout for easy browsing.  
-- Search Functionality – Search books by title or author to quickly find what you're looking for.  
+- Fetch & Display Books – Automatically retrieves book data from the API and displays it dynamically.
+![image](https://github.com/user-attachments/assets/d3e6c3f5-2427-43f6-8284-ad2ea7560b30)
+
+  
+- List & Grid View – Users can toggle between a list and grid layout for easy browsing.
+
+| Grid View | List View |
+|---|---|
+| ![Grid View](https://github.com/user-attachments/assets/a0e313cd-4125-495d-899a-4f6989c9dc68) | ![List View](https://github.com/user-attachments/assets/5e3cd728-4aac-4844-9a5e-7f30c0646d88) |
+
+- Search Functionality – Search books by title or author to quickly find what you're looking for.
+![image](https://github.com/user-attachments/assets/e60060ea-7f69-48c3-a3d6-487cfb187af2)
+
 - Book Details – View essential details like title, author, publisher, published date, and cover image.  
-- Sorting Options – Arrange books alphabetically or by published date for better organization.  
-- Pagination Support – Load more books dynamically as you scroll, ensuring smooth navigation.  
-- External Details – Clicking on a book redirects to an external page for more in-depth information.  
+![image](https://github.com/user-attachments/assets/1a33399e-3b27-42e7-b907-49b124982d1d)
+
+- Sorting Options – Arrange books alphabetically or by published date for better organization. 
+
+| A-Z Sort | Z-A Sort |
+|---|---|
+| ![image](https://github.com/user-attachments/assets/851fac5c-32bc-4137-a456-b8957b38a0e1) | ![image](https://github.com/user-attachments/assets/f33a0e53-d0ab-4112-8507-393637b98190) |
+
+| Newest Sort | Oldest Sort |
+|---|---|
+| ![image](https://github.com/user-attachments/assets/b4ebad90-dbee-4ee4-b358-c9a9432a2bd1) | ![image](https://github.com/user-attachments/assets/80fed86d-2e02-489a-92f1-51b68024303a) |
+
+- Pagination Support – Load more books dynamically as you change the page to Previous or Next.
+![image](https://github.com/user-attachments/assets/b031caf7-898b-4bb2-92bc-6cb44034d848)
+
+- External Details – Clicking on a book redirects to an external page for more in-depth information. 
+![image](https://github.com/user-attachments/assets/fecf101c-db30-4cd6-8e07-de75c106a622)
+ 
 
 ## **🚀 Live Demo**  
 
