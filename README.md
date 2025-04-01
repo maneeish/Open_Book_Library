@@ -37,7 +37,8 @@ A modern and user-friendly book library website that dynamically fetches and dis
 | ![image](https://github.com/user-attachments/assets/b4ebad90-dbee-4ee4-b358-c9a9432a2bd1) | ![image](https://github.com/user-attachments/assets/80fed86d-2e02-489a-92f1-51b68024303a) |
 
 - Pagination Support – Load more books dynamically as you change the page to Previous or Next.
-![image](https://github.com/user-attachments/assets/b031caf7-898b-4bb2-92bc-6cb44034d848)
+![image](https://github.com/user-attachments/assets/b25f95fe-b0b3-46a9-bccb-3b1936d2d5f2)
+
 
 - External Details – Clicking on a book redirects to an external page for more in-depth information. 
 ![image](https://github.com/user-attachments/assets/fecf101c-db30-4cd6-8e07-de75c106a622)
