@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Book</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./assets/images/image (10).png" type="image/x-icon">
+  </head>
+
+  <!-- Body still defines the overall screen height -->
+  <body class="relative h-screen bg-gray-800 text-white">
+    <!-- Background Pattern & Gradient -->
+    <div class="absolute inset-0">
+      <!-- Dark Transparent Overlay -->
+      <div class="fixed inset-0 -z-10 bg-black opacity-80"></div>
+
+      <!-- Radial Grid Overlay -->
+      <div
+        class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.3)_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_55%_at_50%_50%,rgba(0,0,0,0.7)_70%,transparent_100%)]"
+      ></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col">
+      <!-- REMOVED h-screen from this div -->
+      <div
+        class="w-full text-center flex flex-col items-center mt-20 justify-start"
+      >
+        <h1
+          class="text-8xl font-bold text-white uppercase mr-20 ml-20 font-[Honda]"
+        >
+          <span class="font-[Calvino] normal-case text-[#ECDFCC]">Which</span>
+          book do
+          <span class="font-[Calvino] normal-case text-[#ECDFCC]">you</span>
+        </h1>
+        <h1
+          class="text-8xl font-bold text-white uppercase mr-20 ml-20 font-[Honda]"
+        >
+          want
+          <span class="font-[Calvino] normal-case text-[#ECDFCC]">to</span>
+          read<span class="font-[Calvino] normal-case text-[#ECDFCC]">?</span>
+        </h1>
+        <div class="grid mr-5 ml-5 mt-0 grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="flex items-center justify-center min-h-[180px]">
+            <div
+              class="size-full w-[140px] bg-[#f6cd19] flex items-center justify-center rounded-md shadow-[0_0_8px_#f6cd19]" 
+              id="img-yellow"
+            >
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-start">
+            <p class="text-base text-center text-[#ECDFCC] font-[calvino]">
+              Lost in Choices? Explore our handpicked collection and find your
+              next great read!
+            </p>
+            <a href="./main-lib/main-lib.html">
+              <button
+              class="relative px-6 py-3 mt-4 text-[18px] font-semibold text-[#ECDFCC] border-2 border-[#ECDFCC] rounded-[34px] bg-transparent transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] overflow-hidden group hover:scale-110 hover:shadow-[0_0px_20px_rgba(193,163,98,0.4)] active:scale-100 focus:outline-none hover:text-black items-center justify-center flex"
+            >
+              <span class="relative z-10 group-hover:text-black pr-2"
+                >Explore</span
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 74 74"
+                height="34"
+                width="34"
+                class="relative z-10 transform transition-transform duration-300 group-hover:-rotate-45 group-hover:fill-black group-hover:stroke-black"
+              >
+                <circle
+                  stroke-width="3"
+                  stroke="#ECDFCC"
+                  r="35.5"
+                  cy="37"
+                  cx="37"
+                ></circle>
+                <path
+                  fill="#ECDFCC"
+                  d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                ></path>
+              </svg>
+
+              <!-- Expanding background animation -->
+              <span
+                class="absolute inset-0 m-auto w-[50px] h-[50px] rounded-[34px] scale-0 bg-[#ECDFCC] text-black transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-300 group-hover:text-black group-hover:bg-[#ECDFCC] -z-10"
+              >
+              </span>
+            </button>
+            </a>
+          </div>
+          <div class="flex items-center justify-center min-h-[180px]">
+            <div
+              class="size-full w-[140px] bg-[#dc3b40] flex items-center justify-center rounded-md shadow-[0_0_8px_#dc3b40]" 
+              id="img-red"
+            >
+            </div>
+          </div>
+          <div class="flex flex-col items-end justify-center mt-4">
+            <div class="size-full w-[160px]">
+              <span class="text-4xl font-bold text-orange-500 font-[honda]"
+                >30K+</span
+              >
+              <p class="text-[#ECDFCC] font-[calvino]">
+                Explore <span class="font-[honda]">30,000+</span> books across
+                diverse genres on our online book library
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center justify-center min-h-[180px]">
+            <div
+              class="size-full w-[140px] bg-[#00a1d5] flex items-center justify-center rounded-md shadow-[0_0_8px_#00a1d5]" 
+              id="img-blue"
+            >
+            </div>
+          </div>
+          <div class="flex flex-col items-start justify-center mt-4">
+            <div class="size-full w-[160px]">
+              <span class="text-4xl font-bold text-orange-500 font-[honda]"
+                >10K+</span
+              >
+              <p class="text-[#ECDFCC] font-[calvino]">
+                Over <span class="font-[honda]">10,000+</span> Happy Readers on
+                our Platform and Counting!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
